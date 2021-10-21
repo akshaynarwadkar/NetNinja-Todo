@@ -4,7 +4,10 @@ const button = document.querySelector('button')
 
 
 ul.addEventListener('click',e=>{
-	e.target.remove()
+	console.log(e)
+	if(e.target.nodeName=='LI'){
+		e.target.remove()
+	}
 })
 
 
