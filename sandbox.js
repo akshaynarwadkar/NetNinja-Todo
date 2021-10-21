@@ -3,6 +3,12 @@ const button = document.querySelector('button')
 
 
 
+ul.addEventListener('click',e=>{
+	e.target.remove()
+})
+
+
+
 button.addEventListener('click',()=>{
 	const li=document.createElement('li')
 	li.textContent=prompt('Add an item')
