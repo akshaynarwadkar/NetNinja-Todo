@@ -1,0 +1,23 @@
+
+
+.error{
+    padding:10px;
+    align-content : right;
+    color:crimson;
+    border :1px dotted crimson;
+    /* max-width: 200px; */
+    /* margin: 10px auto; */
+}
+
+.success{
+    list-style-type:none;
+    max-width: 200px;
+    padding :10px;
+    margin: 10px auto;
+    background: #eee;
+    border : 1px dotted #ddd;
+    
+    /* align-content : right;
+    color:limegreen;
+    border : 1px dotted limegreen; */
+}
